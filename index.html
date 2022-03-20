@@ -170,6 +170,13 @@
                 height: 10px;
             }
 
+            .toplefthead{
+                position: absolute;
+                top:30;
+                left:50;
+                font-size: 25px;
+            }
+
             .lightclass{
                 position: absolute;
                 right: 30;
@@ -198,6 +205,14 @@
                 height: 26px;
                 width: 50px;
                 transform: scale(1);
+            }
+            
+            .logo{
+                max-width: 50px;
+                max-height: 50px;
+                position: absolute;
+                top: -10;
+                left: -45;
             }
 
             .label .ball {
@@ -248,14 +263,23 @@
         </a>
         <a id="square3" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
         </a>
-        <a id="square4" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <a id="square4">
         </a>
+        <div class="toplefthead">
+            <img class="logo" src="https://cdn.discordapp.com/attachments/774877979552776192/954988432235593768/icons8-epic-games-240.png"></img>
+            Epik Games
+        </div>
         
     </body>
     <script type="text/javascript">
         chk.addEventListener('change', () => {
 	            document.body.classList.toggle('dark');
                 //document.getElementById("linkgarb").classList.toggle("dark");
+        });
+        var sqr4f = document.getElementById("square4");
+        sqr4f.addEventListener ("click", function() {
+            alert("You really wanna? nsfw ahead!");
+            window.location.replace("https://www.shitpostbot.com/resize/585/400?img=%2Fimg%2Ftemplates%2Fgoatse-5807e8e8431a5.png");
         });
         document.addEventListener('keydown', function(event) {
             if(event.keyCode == 123) {
@@ -286,10 +310,10 @@
         });
 
 
-            window.addEventListener("resize", function(event) {
+           /* window.addEventListener("resize", function(event) {
                 if(document.body.clientWidth < window.outerWidth){
                     window.location.replace("https://memegenerator.net/img/instances/72669153/smart-one-you-are.jpg");
                 }
-            })
+            })*/
     </script>
 </html>
