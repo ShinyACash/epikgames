@@ -328,7 +328,10 @@
         </div>
         <p class="about">
             You just won 5 braindollahs ;))!
-            <br>Please take a screenshot of this and send to either Dan or Shiny for proof. [rickroll]
+            <br>Please take a screenshot of this after entering your username/name in the box below and send it to either Dan or Shiny. [rickroll]
+            <p>
+                
+            </p>
         </p>
         
         
@@ -339,6 +342,22 @@
 	            document.body.classList.toggle('dark');
                 //document.getElementById("linkgarb").classList.toggle("dark");
         });
+
+
+
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.coins) {
+                if(localStorage.bool1 === "true"){
+                    document.getElementsByClassName("about").innerHTML = "You already got your braindollah bitch.";
+                }
+                else{
+                    localStorage.coins = Number(localStorage.coins) + 5;
+                    localStorage.bool1 = "true";
+                }
+            }
+        }
+
+        
         
         document.addEventListener('keydown', function(event) {
             if(event.keyCode == 123) {

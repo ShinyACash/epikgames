@@ -37,6 +37,13 @@
                 font-size: 1px;
             }
 
+            .co{
+                position: absolute;
+                top: -18.5;
+                left: 95;
+                font-size: 20px;
+            }
+
             
             .working {
                 display: block;
@@ -227,6 +234,13 @@
                 font-size: 20px;
             }
 
+            .toplefthead .c{
+                position: absolute;
+                top: 170;
+                left: -20;
+                font-size: 20px;
+            }
+
             .howto{
                 position: absolute;
                 top: 50px;
@@ -343,6 +357,10 @@
                 <a href="https://shinyacash.github.io/epikgames/aboutus">About Us</a>
             </div>
             <hr class="dashboard2"/>
+            <div class="c">
+                Braindollah: <p class="co" id="coins"></p>
+            </div>
+            <hr class="dashboard2"/>
         </div>
         <div class="howto">
             How To Play!
@@ -395,6 +413,19 @@
                 return false;
             }
         });
+
+        
+
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.coins) {
+                document.getElementById("coins").innerHTML = localStorage.coins;
+            } 
+            else {
+                localStorage.coins = 0;
+                document.getElementById("coins").innerHTML = localStorage.coins;
+                localStorage.bool1 = "false";
+            }
+        }
 
 
            /* window.addEventListener("resize", function(event) {
