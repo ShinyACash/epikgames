@@ -347,8 +347,8 @@
 
         if (typeof(Storage) !== "undefined") {
             if (localStorage.coins) {
-                if(localStorage.bool1 === "true"){
-                    document.getElementsById("garb").innerHTML = "You already got your braindollah bitch.";
+                if(localStorage.bool1 == "true"){
+                    document.getElementById("garb").innerHTML = "You already got your braindollah bitch.";
                 }
                 else{
                     localStorage.coins = Number(localStorage.coins) + 5;
