@@ -4,7 +4,7 @@ Fake:
 
 Goatse = Hpbutf (ROT1)
 
-Nigger = TmlnZ2Vy (Base64)
+Nigga
 
 DoggyOnTheSpot = Don't need encryption.
 
@@ -15,7 +15,7 @@ You got this far, for NOTHING. Now take this rick roll as a gift for your effort
 
 Real:
 
-Nigga = I don't think we need to encrypt this lmao.
+Nigger = TmlnZ2Vy (Base64)
 
 Literal DooDoo Wader = Yvgreny QbbQbb Jnqre (Rot 13)
 
