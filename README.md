@@ -2,9 +2,9 @@
 
 Fake:
 
-Goatse = Hpbutf (ROT1)
-
 Nigga
+
+Goatse = Hpbutf (ROT1)
 
 DoggyOnTheSpot = Don't need encryption.
 
