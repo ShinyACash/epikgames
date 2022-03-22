@@ -10,6 +10,8 @@ DoggyOnTheSpot = Don't need encryption.
 
 Invento = JFXHMZLOORXQ==== (Base32)
 
+Stacy Dash (Friderici Cipher)
+
 
 You got this far, for NOTHING. Now take this rick roll as a gift for your effort :)
 
