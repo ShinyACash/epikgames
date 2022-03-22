@@ -4,8 +4,8 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQspeHoowDFRtYqlXUcSPwad6du30Xqc4K7QyHf12jkMQNR_ZX7uMsuPpdlO4m3cNRdOF8&usqp=CAU">
-        <title>No Brains</title>
-        <a href="/epikgames/shop.html"></a>
+
+ 
 
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
@@ -37,13 +37,6 @@
                 font-size: 1px;
             }
 
-            .co{
-                position: absolute;
-                top: -18.5;
-                left: 95;
-                font-size: 20px;
-            }
-
             
             .working {
                 display: block;
@@ -57,16 +50,6 @@
                 text-align: center;
             }
             
-            .ins{
-                font-size: 20;
-                text-align: center;
-                align-items: center;
-                top: 150;
-                left: 2;
-                padding: 3px;
-            }
-
-
             A {
                 text-decoration: none;
                 color: var(--textcolor);
@@ -139,29 +122,27 @@
                 cursor: pointer;
             }
 
-            hr.dashboard{
-                text-align: left;
-                margin-top: 25;
-                margin-left: -30;
-                color: var(--bordercolor);
+            hr{
+                color: var(--textcolor);
             }
 
-            hr.dashboard2{
-                text-align: left;
-                width: 90%;
-                margin-top: 50;
-                margin-left: -30;
-                color: var(--bordercolor);
+            hr.heading{
+                text-align: center;
+                position: absolute;
+                width: 0%;
+                left: 50%;
+                animation: line 1s cubic-bezier(0.07, 0, 0.18, 0.97) forwards;
             }
 
-            img.ins1{
-                margin: 10px;
-            }
-
-            
-            img.ins2{
-                margin: 10px;
-                left: 2;
+            @keyframes line{
+                from{
+                    width:0%;
+                    left: 50%;
+                }
+                to{
+                    width: 120%;
+                    left:-10;
+                }
             }
 
             div {
@@ -212,49 +193,6 @@
                 height: 10px;
             }
 
-            .toplefthead{
-                position: absolute;
-                top:30;
-                left:50;
-                font-size: 25px;
-                font-weight: bolder;
-            }
-
-            .toplefthead .shop{
-                position: absolute;
-                top: 70;
-                left: -20;
-                font-size: 20px;
-            }
-
-            .toplefthead .abus{
-                position: absolute;
-                top: 120;
-                left: -20;
-                font-size: 20px;
-            }
-
-            .toplefthead .c{
-                position: absolute;
-                top: 175;
-                left: -23;
-                font-size: 20px;
-            }
-
-            .howto{
-                position: absolute;
-                top: 50px;
-                font-size: 100;
-                align-self: center;
-                text-align: center;
-            }
-
-            .howto .instruc{
-                font-size: 20;
-            }
-
-        
-
             
 
             .lightclass{
@@ -286,14 +224,14 @@
                 width: 50px;
                 transform: scale(1);
             }
-            
-            .logo{
-                max-width: 50px;
-                max-height: 50px;
+
+
+            .Heading{
+                font-size: 55;
                 position: absolute;
-                top: -10;
-                left: -45;
+                top: 50px;
             }
+            
 
             .label .ball {
                 background-color: #fff;
@@ -345,33 +283,9 @@
         </a>
         <a id="square4">
         </a>
-        <div class="toplefthead">
-            <img class="logo" src="https://cdn.discordapp.com/attachments/774877979552776192/954988432235593768/icons8-epic-games-240.png"></img>
-            Epik Games
-            <hr class="dashboard"/>
-            <div class="shop">
-                <a href="https://shinyacash.github.io/epikgames/shop">Shop</a>
-            </div>
-            <hr class="dashboard2"/>
-            <div class="abus">
-                <a href="https://shinyacash.github.io/epikgames/aboutus">About Us</a>
-            </div>
-            <hr class="dashboard2"/>
-            <div class="c">
-                Braindollah: <p class="co" id="coins"></p>
-            </div>
-            <hr class="dashboard2"/>
-        </div>
-        <div class="howto">
-            How To Play!
-            <div class="instruc">
-                <p class="ins">
-                Well, all you gotta do, is find hints and try entering the code on the link as shown.
-                <br><img class="ins1" src="https://cdn.discordapp.com/attachments/774877979552776192/955079969808203786/unknown.png"/>
-                <br>After you find another code, you gotta add the code further into the link like the following NIGGA. Try clicking around.
-                <br><img class="ins2" src="https://cdn.discordapp.com/attachments/774877979552776192/955079681470791721/unknown.png"/>
-                </p>
-            </div>
+        <div class="Heading">
+            Under dev
+            <hr class="heading"/>
         </div>
         
         
@@ -413,20 +327,6 @@
                 return false;
             }
         });
-
-        
-
-        if (typeof(Storage) !== "undefined") {
-            if (localStorage.coins) {
-                document.getElementById("coins").innerHTML = localStorage.coins;
-            } 
-            else {
-                localStorage.coins = 0;
-                document.getElementById("coins").innerHTML = localStorage.coins;
-                localStorage.bool1 = "false";
-                localStorage.bool2 = "false";
-            }
-        }
 
 
            /* window.addEventListener("resize", function(event) {
