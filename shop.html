@@ -14,6 +14,138 @@
                 box-sizing: border-box;
             }
 
+
+            .btn1{
+                width: 85px;
+                height: 40px;
+                margin-right: 20px;
+                margin-left: 50px;
+                color: var(--textcolor);
+                border-radius: 20px;
+                transition: ease-out 0.3s;
+                font-size: 20px;
+                justify-content: center;
+                outline: none;
+                border: 2px solid gray;
+                position: absolute;
+                background-color: var(--bgcolor);
+                top: 50%;
+                left: 15%;
+                z-index: 1;
+            }
+
+            .btn1:hover{
+                color: var(--textcolor);
+                background-color: gray;
+                cursor: pointer;
+            }
+
+            .btn1::before{
+                transition: 0.5s all ease;
+                position: absolute;
+                top: 50%;
+                left: 10%;
+                opacity: 0;
+                content: "";
+                background-color: gray;
+
+            }
+
+            .btn1:hover::before{
+                transition: 0.5s all ease;
+                left: 0;
+                right: 0;
+                opacity: 1;
+                z-index: -1;
+            }
+
+            .btn2{
+                width: 90px;
+                height: 40px;
+                margin-right: 20px;
+                margin-left: 20px;
+                color: var(--textcolor);
+                border-radius: 20px;
+                transition: ease-out 0.3s;
+                font-size: 20px;
+                justify-content: center;
+                outline: none;
+                border: 2px solid gray;
+                position: absolute;
+                background-color: var(--bgcolor);
+                top: 50%;
+                left: 45%;
+                z-index: 1;
+            }
+
+            .btn2:hover{
+                color: var(--textcolor);
+                background-color: gray;
+                cursor: pointer;
+            }
+
+            .btn2::before{
+                transition: 0.5s all ease;
+                position: absolute;
+                top: 50%;
+                left: 10%;
+                opacity: 0;
+                content: "";
+                background-color: gray;
+
+            }
+
+            .btn2:hover::before{
+                transition: 0.5s all ease;
+                left: 0;
+                right: 0;
+                opacity: 1;
+                z-index: -1;
+            }
+
+            .btn3{
+                width: 190px;
+                height: 40px;
+                margin-right: 20px;
+                margin-left: 20px;
+                color: var(--textcolor);
+                border-radius: 20px;
+                transition: ease-out 0.3s;
+                font-size: 20px;
+                justify-content: center;
+                outline: none;
+                border: 2px solid gray;
+                position: absolute;
+                background-color: var(--bgcolor);
+                top: 50%;
+                left: 70%;
+                z-index: 1;
+            }
+
+            .btn3:hover{
+                color: var(--textcolor);
+                background-color: gray;
+                cursor: pointer;
+            }
+
+            .btn3::before{
+                transition: 0.5s all ease;
+                position: absolute;
+                top: 50%;
+                left: 10%;
+                opacity: 0;
+                content: "";
+                background-color: gray;
+
+            }
+
+            .btn3:hover::before{
+                transition: 0.5s all ease;
+                left: 0;
+                right: 0;
+                opacity: 1;
+                z-index: -1;
+            }
             
             p {
                 position: absolute;
@@ -35,6 +167,42 @@
                 top: 0%;
                 color: white;
                 font-size: 1px;
+            }
+
+            .hintp{
+                text-align: center;
+                margin-right: 20px;
+                margin-left: 50px;
+                position: absolute;
+                max-height: 385px;
+                top: 60%;
+                left: -55%;
+                color: rgb(126, 126, 126);
+                font-size: 20px;
+            }
+
+            .dilp{
+                text-align: center;
+                margin-right: 20px;
+                margin-left: 20px;
+                position: absolute;
+                max-height: 385px;
+                top: 60%;
+                left: 3.5%;
+                color: rgb(126, 126, 126);
+                font-size: 20px;
+            }
+
+            .remp{
+                text-align: center;
+                margin-right: 20px;
+                margin-left: 20px;
+                position: absolute;
+                max-height: 385px;
+                top: 60%;
+                left: 60%;
+                color: rgb(126, 126, 126);
+                font-size: 20px;
             }
 
             
@@ -73,6 +241,7 @@
             :root {
                 --textcolor: body.color;
                 --bordercolor: body.color;
+                --bgcolor: body.background-color;
             }
 
             body.dark {
@@ -275,11 +444,11 @@
             </label>
         </div>
         <div class="lightclass">Lighting Mode</div>
-        <a id="square" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <a id="square">
         </a>
-        <a id="square2" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <a id="square2">
         </a>
-        <a id="square3" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <a id="square3">
         </a>
         <a id="square4">
         </a>
@@ -287,19 +456,71 @@
             Shop
             <hr class="heading"/>
         </div>
+        <div class="items">
+            <button id="hint" class="btn1">Hint</button>
+            <p class="hintp"> 
+                15BD
+                <br>Grants you a hint which you can receive from Dan/Shiny
+            </p>
+            <button id="dildo" class="btn2">Dildo</button>
+            <p class="dilp">
+                10BD
+                <br>Does Nothing. Really.
+            </p>
+            <button id="rem" class="btn3">Ram-Rem Support</button>
+            <p class="remp">
+                40BD
+                <br>Doubles the amount of Braindollahs you earn!
+            </p>
+        </div>
         
         
     </body>
     <script type="text/javascript">
+
+
         chk.addEventListener('change', () => {
 	            document.body.classList.toggle('dark');
                 //document.getElementById("linkgarb").classList.toggle("dark");
         });
-        var sqr4f = document.getElementById("square4");
-        sqr4f.addEventListener ("click", function() {
-            alert("You really wanna? nsfw ahead!");
-            window.location.replace("https://www.shitpostbot.com/resize/585/400?img=%2Fimg%2Ftemplates%2Fgoatse-5807e8e8431a5.png");
+
+        var h = document.getElementById("hint");
+        var d = document.getElementById("dildo");
+        var r = document.getElementById("rem");
+
+        h.addEventListener ("click", function() {
+            if(localStorage.coins < 15){
+                alert("You don't have enuf BD bitch.");
+            }
+            else{
+                localStorage.coins = Number(localStorage.coins) - 15;
+                alert("Thanks for the purchase [hint] take a ss and send to dan/shiny");
+            }    
         });
+
+        d.addEventListener ("click", function() {
+            if(localStorage.coins < 10){
+                alert("You don't have enuf BD bitch.");
+            }
+            else{
+                localStorage.coins = Number(localStorage.coins) - 10;
+                alert("Thanks for the purchase! dunno why you made it.");
+                window.location.replace("https://shinyacash.github.io/epikgames/d1ld0");
+            }    
+        });
+
+        r.addEventListener ("click", function() {
+            if(localStorage.coins < 40){
+                alert("You don't have enuf BD bitch.");
+            }
+            else{
+                localStorage.coins = Number(localStorage.coins) - 40;
+                alert("Thanks for the purchase [rem] take a ss and send to dan/shiny");
+            }    
+        });
+
+
+
         document.addEventListener('keydown', function(event) {
             if(event.keyCode == 123) {
                 alert('Oh you cheater don\'t you dare bitch.');
