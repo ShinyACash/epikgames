@@ -16,6 +16,14 @@ Megumin = Leguminmoc (Louchebem)
 
 Satoru Gojou = kpoze551qworq55kp74o (Z-Base-32)
 
+Super Nigga = Svrhv Sonoj (Trithemius Cipher)
+
+Boy's Abyss = 6>q,sF!*bXH#n$ (ASCII85)
+
+Elon Musk = UU_|[]Z E](/)_V_ (LSPK90CW)
+
+
+
 
 You got this far, for NOTHING. Now take this rick roll as a gift for your effort :)
 
@@ -53,6 +61,10 @@ s2:92EDF }2<65 (ROT47)
 Public Key = MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCvLCAShpbN8BQuXIreu/iUjpegnXqrI/o4i+gI2/BZmrRZjAc9A6otcWbCRy2VDQLAZAvcZYQkxOqFbotK+BFIJ6qdZt2j5YYfYVsXJXMAV3XYC37jXkaudrf2Jk9CoKpK6cAD7Ov61IEutLfc0yUn4Q8wpijzz+SA76OMawEmHQIDAQAB
 
 Private Key = MIICdQIBADANBgkqhkiG9w0BAQEFAASCAl8wggJbAgEAAoGBAK8sIBKGls3wFC5cit67+JSOl6Cdeqsj+jiL6Ajb8FmatFmMBz0Dqi1xZsJHLZUNAsBkC9xlhCTE6oVui0r4EUgnqp1m3aPlhh9hWxclcwBXddgLfuNeRq52t/YmT0KgqkrpwAPs6/rUgS60t9zTJSfhDzCmKPPP5IDvo4xrASYdAgMBAAECgYAnloZNCYOtWPOGor1zpvF/yVX1I4HkiYX0H5I55lLEPVVC44WDQX/FM1qwz1s60yzrA/E2Ru79TE9gBmKOd8+XqK7igChkcI4U6ZnyHA1BYbJKrx4eRfvWWCvtpZu7kxp41XBqThvid2pknMI2EtspIojfAFgFf4i26Mg4dnyyAQJBAP2xjit/+EHNXmoBv5o+6lZIw2EdgrqXYj0Ptx0hAh7LwPba5k1lvyJXzpLnjMghjpKdgWmGz+AJKQKmCZD59oECQQCww9H5niGSf1OlxNJZjmPEps78HzkgGKh44Qde40BoC6cBaNy6btZeiriXXkpAZtQ8AGAsjvUWI2CceiC3MnmdAkASuFtpUlQbZvAkmmRtGV9pZo0kSW0wH6OcJeC5QYpKg3aFwLll1LA59IjFxlhZHEDNCNpX0x7bxVFFZMMn84oBAkBFZ12WaOQ9pQiu2azNxP6fQ++ZRpkjZQshCxndw9SSBaE5CHdCLCq3TDhWFouI5dcHCA668BaC7rkMN1eJFqRxAkBamqFv8jiAygsuByzIZLgHrvMNr/Zs1vs1teShG3nUNbvOB7RW5mkkpaZfIYpeA3Lr0OQpmFshlxa0s4fwhiBa                           
+
+HA, YOU REALLY THOUGHT YOU WERE DONE! I LAUGH.
+WE JUST GETTING STARTED BITCHES
+
 
 
 
