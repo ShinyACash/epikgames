@@ -70,7 +70,13 @@ Avicii = abcefg cde c deg c c (7-Segmennt Display)
 
 Pewdiepie = eeeeeeeeeepaeaeeeaeeeeeeeaeeeeeeeeeeccccisaaaeeeeeeeeeejaejeeeeeeeeeeeeeeeeeejiiiiiiiiiiiiiiiiiiijeeeeejiiiijeeeeeeeeeeejiiiiiiijiiiij (Alphuck)
 
-Darth Vader = ----------]<-<---<-------<---------->>>>+[<<<++,<+++,-----------------,--,++++++++++++,>>--,<------------------,<+++++++,---,-,-------------,
+Darth Vader = ----------]<-<---<-------<---------->>>>+[<<<++,<+++,-----------------,--,++++++++++++,>>--,<------------------,<+++++++,---,-,-------------, (ReverseFuck, yes u read that correct lmao)
+
+Mirella Cardoso = pi pi pi pi pi pi pi pi pi pi pika pipi pi pipi pi pi pi pipi pi pi pi pi pi pi pi pipi pi pi pi pi pi pi pi pi pi pi pichu pichu pichu pichu ka chu pipi pipi pipi pi pi pi pi pi pi pi pikachu pipi pi pi pi pi pi pikachu pi pi pi pi pi pi pi pi pi pikachu ka ka ka ka ka ka ka ka ka ka ka ka ka pikachu pi pi pi pi pi pi pi pikachu pikachu ka ka ka ka ka ka ka ka ka ka ka pikachu pichu pichu pi pi pikachu pipi ka ka ka ka ka ka ka ka ka ka pikachu pipi pikachu pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pi pikachu ka ka ka ka ka ka ka ka ka ka ka ka ka ka pikachu pi pi pi pi pi pi pi pi pi pi pi pikachu pi pi pi pi pikachu ka ka ka ka pikachu (Pikalang)
+
+IGHT, IT'S TIME FOR THE FINAL CODE.
+
+
 
 
 
