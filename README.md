@@ -76,7 +76,25 @@ Mirella Cardoso = pi pi pi pi pi pi pi pi pi pi pika pipi pi pipi pi pi pi pipi 
 
 IGHT, IT'S TIME FOR THE FINAL CODE.
 
+11B-X-1371 - part 1 = iisiiiisdddddddddddddddooiiiiiiiiiiiiiiiiiodddddddddddddddddddddoiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiodddddddddddddddddddddddddddddddddddddddddddoiiiioiioiiiioddddddo (DeadFish)
 
+= Acéré Cipher
+
+ That's only part 1 ;))
+
+3301 - part 2
+
+= 1477-697 1477-697 1336-941 1209-697 (DTMF)
+
+= BADOBA HEKIKA BADOBA HEKIKA BAHIKO HIKEDA BOKIKA HEKIKA (Bibi-Binary)
+
+ There's your part 2 ;))
+ All you gotta do now, is combine them.
+ No encryptions.
+
+ 11B-X-1371-3301 = FINAL CODE.
+
+ blah blah blah u win. (change this to whatevr u think is fine)
 
 
 
