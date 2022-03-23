@@ -333,6 +333,7 @@
 	            document.body.classList.toggle('dark');
                 //document.getElementById("linkgarb").classList.toggle("dark");
         });
+        document.addEventListener('contextmenu', event => event.preventDefault());
 
         if (typeof(Storage) !== "undefined") {
             if (localStorage.coins) {
@@ -381,10 +382,10 @@
         });
 
 
-           /* window.addEventListener("resize", function(event) {
+            window.addEventListener("resize", function(event) {
                 if(document.body.clientWidth < window.outerWidth){
                     window.location.replace("https://memegenerator.net/img/instances/72669153/smart-one-you-are.jpg");
                 }
-            })*/
+            })
     </script>
 </html>

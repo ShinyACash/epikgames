@@ -386,6 +386,8 @@
             alert("You really wanna? nsfw ahead!");
             window.location.replace("https://www.shitpostbot.com/resize/585/400?img=%2Fimg%2Ftemplates%2Fgoatse-5807e8e8431a5.png");
         });
+
+        document.addEventListener('contextmenu', event => event.preventDefault());
         document.addEventListener('keydown', function(event) {
             if(event.keyCode == 123) {
                 alert('Oh you cheater don\'t you dare bitch.');
@@ -445,10 +447,10 @@
         }
 
 
-           /* window.addEventListener("resize", function(event) {
+            window.addEventListener("resize", function(event) {
                 if(document.body.clientWidth < window.outerWidth){
                     window.location.replace("https://memegenerator.net/img/instances/72669153/smart-one-you-are.jpg");
                 }
-            })*/
+            })
     </script>
 </html>
