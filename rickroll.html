@@ -351,8 +351,14 @@
                     document.getElementById("garb").innerHTML = "You already got your braindollah bitch.";
                 }
                 else{
-                    localStorage.coins = Number(localStorage.coins) + 5;
-                    localStorage.bool1 = "true";
+                    if(boolr == "true"){
+                        localStorage.coins = Number(localStorage.coins) + 10;
+                        localStorage.bool1 = "true";
+                    }
+                    else{
+                        localStorage.coins = Number(localStorage.coins) + 5;
+                        localStorage.bool1 = "true";
+                    }
                 }
             }
         }

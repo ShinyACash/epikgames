@@ -340,8 +340,14 @@
                     document.getElementById("h").innerHTML = "Or do I? Well try clicking the squares on the main page ;)) You got your braindollah btw."
                 }
                 else{
-                    localStorage.coins = Number(localStorage.coins) + 5;
-                    localStorage.bool2 = "true";
+                    if(boolr == "true"){
+                        localStorage.coins = Number(localStorage.coins) + 10;
+                        localStorage.bool2 = "true";
+                    }
+                    else{
+                        localStorage.coins = Number(localStorage.coins) + 5;
+                        localStorage.bool2 = "true";
+                    }
                 }
             }
         }

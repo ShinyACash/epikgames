@@ -328,7 +328,7 @@
         </div>
         <p id="garb" class="about">
             You just won 5 braindollahs ;))!
-            <br>You just bought a dildo and got back half the amount. Hey, at least it ain't a complete loss! [DILDO]
+            <br>You just bought a dildo and got back half the amount (or the entire amount of you have ram-rem support). Hey, at least it ain't a complete loss! [DILDO]
             <p>
                 
             </p>
@@ -351,8 +351,13 @@
                     document.getElementById("garb").innerHTML = "You already got your braindollah bitch.";
                 }
                 else{
-                    localStorage.coins = Number(localStorage.coins) + 5;
-                    localStorage.bool4 = "true";
+                    if(boolr == "true"){
+                        localStorage.coins = Number(localStorage.coins) + 10;
+                    }
+                    else{
+                        localStorage.coins = Number(localStorage.coins) + 5;
+                        localStorage.bool4 = "true";
+                    }
                 }
             }
         }

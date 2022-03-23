@@ -341,8 +341,14 @@
                     document.getElementById("g").innerHTML = "Did you even know what goatse meant? lol, you already received your braindollahs."
                 }
                 else{
-                    localStorage.coins = Number(localStorage.coins) + 5;
-                    localStorage.bool3 = "true";
+                    if(boolr == "true"){
+                        localStorage.coins = Number(localStorage.coins) + 10;
+                        localStorage.bool3 = "true";
+                    }
+                    else{
+                        localStorage.coins = Number(localStorage.coins) + 5;
+                        localStorage.bool3 = "true";
+                    }
                 }
             }
         }
