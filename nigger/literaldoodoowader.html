@@ -314,7 +314,7 @@
         <a id="square4">
         </a>
         <div class="Heading">
-            NIGGA
+            Trash
             <hr class="heading"/>
         </div>
         <p class="about">
@@ -331,23 +331,22 @@
                 //document.getElementById("linkgarb").classList.toggle("dark");
         });
 
-        if (typeof(Storage) !== "undefined") {
-            if (localStorage.coins) {
-                if(localStorage.bool6 == "true"){
-                    document.getElementById("h").innerHTML = "You got your BD already so."
+        if (localStorage.coins) {
+            if(localStorage.bool6 == "true"){
+                document.getElementById("h").innerHTML = "You got your BD already so."
+            }
+            else{
+                if(boolr == "true"){
+                    localStorage.coins = Number(localStorage.coins) + 10;
+                    localStorage.bool6 = "true";
                 }
                 else{
-                    if(boolr == "true"){
-                        localStorage.coins = Number(localStorage.coins) + 10;
-                        localStorage.bool6 = "true";
-                    }
-                    else{
-                        localStorage.coins = Number(localStorage.coins) + 5;
-                        localStorage.bool6 = "true";
-                    }
+                    localStorage.coins = Number(localStorage.coins) + 5;
+                    localStorage.bool6 = "true";
                 }
             }
         }
+      
 
         document.addEventListener('keydown', function(event) {
             if(event.keyCode == 123) {
