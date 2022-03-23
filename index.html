@@ -427,9 +427,9 @@
         
 
         if (typeof(Storage) !== "undefined") {
-            if (localStorage.coins) {
+            if (localStorage.coins && localStorage.boolr) {
                 document.getElementById("coins").innerHTML = localStorage.coins;
-            } 
+            }
             else {
                 localStorage.coins = 0;
                 document.getElementById("coins").innerHTML = localStorage.coins;
@@ -438,6 +438,7 @@
                 localStorage.bool3 = "false";
                 localStorage.bool4 = "false";
                 localStorage.bool5 = "false";
+                localStorage.bool6 = "false";
                 localStorage.boolr = "false";
             }
         }
