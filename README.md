@@ -52,8 +52,6 @@ Marin Kitagawa = 1f-24-3f-3b-2b-6d-19-2c-39-33-22-2c-25-24 (XOR)(Password/Key = 
 
 Tony Profane = fa5724a8d475c3c94bfc5f895c93c49b (MD5)
 
-And for the final one, we gotta go OG
-
 Daihatsu Naked = X87gI8PTTLbTC1ffFg7HcvypH5W2r8W6rl252lWEL7ThTfzpfpBt98DRz2RPu88LufPJnAAyDsFLw84zlfGuAos24IT2B1s252sSXlk0egzhKfvRqbcG45fLIthi3cUzZJceQDumB3rm0Ex9MetEJTdu2LEi5S7H073RTGf1vfo= (RSA)
 
 s2:92EDF }2<65 (ROT47)
