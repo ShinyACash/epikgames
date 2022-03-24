@@ -1,0 +1,72 @@
+<html>
+    <title>Invento</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQspeHoowDFRtYqlXUcSPwad6du30Xqc4K7QyHf12jkMQNR_ZX7uMsuPpdlO4m3cNRdOF8&usqp=CAU">
+    <style>
+        body {
+            background-image: url("https://media.discordapp.net/attachments/774877979552776192/955797043249569812/unknown.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: black;
+        }
+    </style>
+    <body>
+
+    </body>
+    <script type="text/javascript">
+        
+        document.addEventListener('keydown', function(event) {
+            if(event.keyCode == 123) {
+                alert('Oh you cheater don\'t you dare bitch.');
+                window.location.replace("https://www.youtube.com/watch?v=1FUPNljwOY4");
+                return false;
+            }
+            else if(event.ctrlKey && event.shiftKey && event.keyCode == 'I'.charCodeAt(0)) {
+                alert("Nice try bitch.");
+                window.location.replace("https://www.youtube.com/watch?v=1FUPNljwOY4");
+                return false;
+            }
+            else if(event.ctrlKey && event.shiftKey && event.keyCode == 'C'.charCodeAt(0)) {
+                alert("NAaaaaaaaahhhhhhhh jit goin crazy");
+                window.location.replace("https://www.youtube.com/watch?v=1FUPNljwOY4");
+                return false;
+            }
+            else if(event.ctrlKey && event.shiftKey && event.keyCode == 'J'.charCodeAt(0)) {
+                alert("nah bro, not today.");
+                window.location.replace("https://www.youtube.com/watch?v=1FUPNljwOY4");
+                return false;
+            }
+            else if(event.ctrlKey && event.keyCode == 'U'.charCodeAt(0)) {
+                alert("nah-ah-ah, say the magic word~");
+                window.location.replace("https://www.youtube.com/watch?v=1FUPNljwOY4");
+                return false;
+            }
+        });
+
+        if (localStorage.coins) {
+            if(localStorage.bool9 == "true"){
+                alert("Need the picture again? lol");
+            }
+            else{
+                if(localStorage.boolr == "true"){
+                    localStorage.coins = Number(localStorage.coins) + 10;
+                    localStorage.bool9 = "true";
+                }
+                else{
+                    localStorage.coins = Number(localStorage.coins) + 5;
+                    localStorage.bool9 = "true";
+                }
+            }
+        }
+
+        document.addEventListener('contextmenu', event => event.preventDefault());
+
+
+            window.addEventListener("resize", function(event) {
+                if(document.body.clientWidth < window.outerWidth){
+                    window.location.replace("https://memegenerator.net/img/instances/72669153/smart-one-you-are.jpg");
+                }
+            })
+    </script>
+</html>
