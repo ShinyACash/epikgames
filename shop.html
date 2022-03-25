@@ -537,6 +537,7 @@
             else{
                 if(localStorage.bool4 == "true") return alert("You already bought it bo.");
                 localStorage.coins = Number(localStorage.coins) - 10;
+                localStorage.bool4 = "true";
                 alert("Thanks for the purchase! dunno why you made it.");
                 window.location.replace("https://shinyacash.github.io/epikgames/d1ld0");
             }    
