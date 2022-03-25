@@ -339,17 +339,17 @@
         });
 
         if (localStorage.coins) {
-            if(localStorage.bool10 == "true"){
+            if(localStorage.bool11 == "true"){
                 console.log("BD already given to the person");
             }
             else{
                 if(localStorage.boolr == "true"){
                     localStorage.coins = Number(localStorage.coins) + 10;
-                    localStorage.bool10 = "true";
+                    localStorage.bool11 = "true";
                 }
                 else{
                     localStorage.coins = Number(localStorage.coins) + 5;
-                    localStorage.bool10 = "true";
+                    localStorage.bool11 = "true";
                 }
             }
         }
