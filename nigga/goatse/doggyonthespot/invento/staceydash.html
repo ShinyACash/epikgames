@@ -1,10 +1,11 @@
 <html>
-    <title>Epik Games</title>
+    <title>Stacey Dash</title>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQspeHoowDFRtYqlXUcSPwad6du30Xqc4K7QyHf12jkMQNR_ZX7uMsuPpdlO4m3cNRdOF8&usqp=CAU">
-        <a href="/epikgames/shop.html"></a>
+
+ 
 
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
@@ -35,14 +36,34 @@
                 color: white;
                 font-size: 1px;
             }
+            
 
-            .co{
+            .about{
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                display: flex;
                 position: absolute;
-                top: -18.5;
-                left: 95;
+                max-height: 385px;
+                top: 20%;
+                right: 45%;
+                color: rgb(126, 126, 126);
                 font-size: 20px;
+                transform: scale(10);
             }
 
+            .hint{
+                justify-content: center;
+                align-items: center;
+                text-align: center;
+                margin: 50px;
+                position: absolute;
+                max-height: 300px;
+                top: 50%;
+                right: 200;
+                color: black;
+                font-size: 20px;
+            }
             
             .working {
                 display: block;
@@ -56,16 +77,6 @@
                 text-align: center;
             }
             
-            .ins{
-                font-size: 20;
-                text-align: center;
-                align-items: center;
-                top: 150;
-                left: 2;
-                padding: 3px;
-            }
-
-
             A {
                 text-decoration: none;
                 color: var(--textcolor);
@@ -138,29 +149,27 @@
                 cursor: pointer;
             }
 
-            hr.dashboard{
-                text-align: left;
-                margin-top: 25;
-                margin-left: -30;
-                color: var(--bordercolor);
+            hr{
+                color: var(--textcolor);
             }
 
-            hr.dashboard2{
-                text-align: left;
-                width: 90%;
-                margin-top: 50;
-                margin-left: -30;
-                color: var(--bordercolor);
+            hr.heading{
+                text-align: center;
+                position: absolute;
+                width: 0%;
+                left: 50%;
+                animation: line 1s cubic-bezier(0.07, 0, 0.18, 0.97) forwards;
             }
 
-            img.ins1{
-                margin: 10px;
-            }
-
-            
-            img.ins2{
-                margin: 10px;
-                left: 2;
+            @keyframes line{
+                from{
+                    width:0%;
+                    left: 50%;
+                }
+                to{
+                    width: 120%;
+                    left:-20;
+                }
             }
 
             div {
@@ -183,7 +192,6 @@
             #square2{
                 border: solid 3px;
                 border-color: var(--bordercolor);
-                cursor: pointer;
                 position: absolute;
                 top: 7px;
                 left:7px;
@@ -210,49 +218,6 @@
                 width: 10px;
                 height: 10px;
             }
-
-            .toplefthead{
-                position: absolute;
-                top:30;
-                left:50;
-                font-size: 25px;
-                font-weight: bolder;
-            }
-
-            .toplefthead .shop{
-                position: absolute;
-                top: 70;
-                left: -20;
-                font-size: 20px;
-            }
-
-            .toplefthead .abus{
-                position: absolute;
-                top: 120;
-                left: -20;
-                font-size: 20px;
-            }
-
-            .toplefthead .c{
-                position: absolute;
-                top: 175;
-                left: -23;
-                font-size: 20px;
-            }
-
-            .howto{
-                position: absolute;
-                top: 50px;
-                font-size: 100;
-                align-self: center;
-                text-align: center;
-            }
-
-            .howto .instruc{
-                font-size: 20;
-            }
-
-        
 
             
 
@@ -285,14 +250,14 @@
                 width: 50px;
                 transform: scale(1);
             }
-            
-            .logo{
-                max-width: 50px;
-                max-height: 50px;
+
+
+            .Heading{
+                font-size: 55;
                 position: absolute;
-                top: -10;
-                left: -45;
+                top: 50px;
             }
+            
 
             .label .ball {
                 background-color: #fff;
@@ -326,6 +291,12 @@
                 font-size: 125%;
             }
 
+            img.nigg{
+                margin: 10px;
+                padding: 10;
+                max-width: 500px;
+            }
+
         </style>
     </head>
     <body>
@@ -336,42 +307,23 @@
             </label>
         </div>
         <div class="lightclass">Lighting Mode</div>
-        <a id="square" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <a id="square">
         </a>
-        <a id="square2" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <a id="square2">
         </a>
-        <a id="square3" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <a id="square3">
         </a>
         <a id="square4">
         </a>
-        <div class="toplefthead">
-            <img class="logo" src="https://cdn.discordapp.com/attachments/774877979552776192/954988432235593768/icons8-epic-games-240.png"></img>
-            Epik Games
-            <hr class="dashboard"/>
-            <div class="shop">
-                <a href="https://shinyacash.github.io/epikgames/shop">Shop</a>
-            </div>
-            <hr class="dashboard2"/>
-            <div class="abus">
-                <a href="https://shinyacash.github.io/epikgames/aboutus">About Us</a>
-            </div>
-            <hr class="dashboard2"/>
-            <div class="c">
-                Braindollah: <p class="co" id="coins"></p>
-            </div>
-            <hr class="dashboard2"/>
+        <div class="Heading">
+            Luguuoc?
+            <hr class="heading"/>
         </div>
-        <div class="howto">
-            How To Play!
-            <div class="instruc">
-                <p class="ins">
-                Well, all you gotta do, is find hints and try entering the code on the link as shown.
-                <br><img class="ins1" src="https://cdn.discordapp.com/attachments/774877979552776192/955079969808203786/unknown.png"/>
-                <br>After you find another code, you gotta add the code further into the link like the following NIGGA. Try clicking around.
-                <br><img class="ins2" src="https://cdn.discordapp.com/attachments/774877979552776192/955079681470791721/unknown.png"/>
-                </p>
-            </div>
-        </div>
+        <p class="about">
+            L       e       g       u       m       i       n       m       o       c
+            <br>
+        </p>
+        
         
         
     </body>
@@ -380,13 +332,24 @@
 	            document.body.classList.toggle('dark');
                 //document.getElementById("linkgarb").classList.toggle("dark");
         });
-        var sqr4f = document.getElementById("square4");
-        sqr4f.addEventListener ("click", function() {
-            alert("You really wanna? nsfw ahead!");
-            window.location.replace("https://www.shitpostbot.com/resize/585/400?img=%2Fimg%2Ftemplates%2Fgoatse-5807e8e8431a5.png");
-        });
 
-        document.addEventListener('contextmenu', event => event.preventDefault());
+        if (localStorage.coins) {
+            if(localStorage.bool10 == "true"){
+                console.log("BD already given to the person");
+            }
+            else{
+                if(localStorage.boolr == "true"){
+                    localStorage.coins = Number(localStorage.coins) + 10;
+                    localStorage.bool10 = "true";
+                }
+                else{
+                    localStorage.coins = Number(localStorage.coins) + 5;
+                    localStorage.bool10 = "true";
+                }
+            }
+        }
+      
+
         document.addEventListener('keydown', function(event) {
             if(event.keyCode == 123) {
                 alert('Oh you cheater don\'t you dare bitch.');
@@ -413,38 +376,9 @@
                 window.location.replace("https://www.youtube.com/watch?v=1FUPNljwOY4");
                 return false;
             }
-            
-
-            else if(event.ctrlKey && event.shiftKey && event.keyCode == 'R'.charCodeAt(0)) {
-                alert("reset");
-                localStorage.coins = 0;
-            }
-            
         });
 
-        
-
-        if (typeof(Storage) !== "undefined") {
-            if (localStorage.coins) {
-                document.getElementById("coins").innerHTML = localStorage.coins;
-            }
-            else {
-                localStorage.coins = 0;
-                document.getElementById("coins").innerHTML = localStorage.coins;
-                localStorage.bool1 = "false";
-                localStorage.bool2 = "false";
-                localStorage.bool3 = "false";
-                localStorage.bool4 = "false";
-                localStorage.bool5 = "false";
-                localStorage.bool6 = "false";
-                localStorage.bool7 = "false";
-                localStorage.bool8 = "false";
-                localStorage.bool9 = "false";
-                localStorage.bool10 = "false";
-                localStorage.boolr = "false";
-                window.location.reload();
-            }
-        }
+        document.addEventListener('contextmenu', event => event.preventDefault());
 
 
             window.addEventListener("resize", function(event) {
