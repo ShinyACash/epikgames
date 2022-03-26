@@ -359,29 +359,14 @@
             //document.getElementById("linkgarb").classList.toggle("dark");
         });
         
-        if (localStorage.coins) {
-            if(localStorage.bool21 == "true"){
-                document.getElementById("h").innerHTML = "You got your BD already so."
-            }
-            else{
-                if(localStorage.boolr == "true"){
-                    localStorage.coins = Number(localStorage.coins) + 10;
-                    localStorage.bool21 = "true";
-                }
-                else{
-                    localStorage.coins = Number(localStorage.coins) + 5;
-                    localStorage.bool21 = "true";
-                }
-            }
-        }
-
+        
         var cur = document.getElementById("curious");
-
+        
         cur.addEventListener ("click", function() {
             alert("You sure are curious huh");
             window.location.replace("https://shinyacash.github.io/epikgames/curious1");
         });
-
+        
         document.addEventListener('keydown', function(event) {
             if(event.keyCode == 123) {
                 alert('Oh you cheater don\'t you dare bitch.');
@@ -409,7 +394,22 @@
                 return false;
             }
         });
-
+        
+        if (localStorage.coins) {
+            if(localStorage.bool21 == "true"){
+                console.log("BD given");
+            }
+            else{
+                if(localStorage.boolr == "true"){
+                    localStorage.coins = Number(localStorage.coins) + 10;
+                    localStorage.bool21 = "true";
+                }
+                else{
+                    localStorage.coins = Number(localStorage.coins) + 5;
+                    localStorage.bool21 = "true";
+                }
+            }
+        }
         document.addEventListener('contextmenu', event => event.preventDefault());
 
 
