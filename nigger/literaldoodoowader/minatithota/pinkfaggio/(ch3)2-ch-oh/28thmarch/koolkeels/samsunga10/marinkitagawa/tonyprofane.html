@@ -424,7 +424,22 @@
                 //document.getElementById("linkgarb").classList.toggle("dark");
         });
 
-       
+        if(localStorage.coins) {
+            if(localStorage.bool25 == "true"){
+                console.log("BD given");
+
+            }
+            else{
+                if(localStorage.boolr == "true"){
+                    localStorage.coins = Number(localStorage.coins) + 10;
+                    localStorage.bool25 = "true";
+                }
+                else{
+                    localStorage.coins = Number(localStorage.coins) + 5;
+                    localStorage.bool25 = "true";
+                }
+            }
+        }
         
         document.addEventListener('keydown', function(event) {
             if(event.keyCode == 123) {
