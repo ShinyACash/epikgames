@@ -309,6 +309,22 @@
     <script type="text/javascript">
         //window.location.replace("https://shinyacash.github.io/epikgames/nigger/literaldoodoowader/minatithota/%50%69%6E%6B%20%46%61%67%67%69%6F");
 
+        if (localStorage.coins) {
+            if(localStorage.bool17 == "true"){
+                document.getElementById("h").innerHTML = "You got your BD already so."
+            }
+            else{
+                if(localStorage.boolr == "true"){
+                    localStorage.coins = Number(localStorage.coins) + 10;
+                    localStorage.bool17 = "true";
+                }
+                else{
+                    localStorage.coins = Number(localStorage.coins) + 5;
+                    localStorage.bool17 = "true";
+                }
+            }
+        }
+
         chk.addEventListener('change', () => {
 	            document.body.classList.toggle('dark');
                 //document.getElementById("linkgarb").classList.toggle("dark");
