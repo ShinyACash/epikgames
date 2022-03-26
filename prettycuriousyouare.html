@@ -1,19 +1,13 @@
 <html>
-    <title>pink</title>
+    <title>Achievement</title>
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQspeHoowDFRtYqlXUcSPwad6du30Xqc4K7QyHf12jkMQNR_ZX7uMsuPpdlO4m3cNRdOF8&usqp=CAU">
-
- 
+       
 
         <style>
             @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
-
-            @font-face {
-                font-family: dock11;
-                src: url(heavy_dock11.otf);
-            }
 
             * {
                 box-sizing: border-box;
@@ -29,6 +23,7 @@
                 text-align: right;
             }
             
+
             .T {
                 color: #000000;
             }
@@ -41,34 +36,32 @@
                 color: white;
                 font-size: 1px;
             }
-            
 
             .about{
                 justify-content: center;
                 align-items: center;
                 text-align: center;
-                display: flex;
                 position: absolute;
-                margin-left: 50px;
-                margin-right: 10px;
                 max-height: 385px;
-                top: 20%;
-                right: -0.5;
+                top: 40%;
+                left: 60;
                 color: rgb(126, 126, 126);
                 font-size: 20px;
+                animation: fadeInAnimation ease 3s;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards;
             }
 
-            .hint{
-                justify-content: center;
-                align-items: center;
-                text-align: center;
-                margin: 50px;
-                position: absolute;
-                max-height: 300px;
-                top: 50%;
-                right: 200;
-                color: black;
-                font-size: 20px;
+            @keyframes fadeInAnimation {
+                0% {
+                    opacity: 0;
+                }
+                50%{
+                    opacity: 0;
+                }
+                100% {
+                    opacity: 1;
+                }
             }
             
             .working {
@@ -151,9 +144,9 @@
                 border-color: var(--bordercolor);
             }
 
-            
-
-           
+            button:hover {
+                cursor: pointer;
+            }
 
             hr{
                 color: var(--textcolor);
@@ -162,19 +155,20 @@
             hr.heading{
                 text-align: center;
                 position: absolute;
-                width: 0%;
+                height: 1px;
+                width: 0;
                 left: 50%;
                 animation: line 1s cubic-bezier(0.07, 0, 0.18, 0.97) forwards;
             }
 
             @keyframes line{
-                from{
-                    width:0%;
+                90%{
+                    width:0;
                     left: 50%;
                 }
-                to{
+                100%{
                     width: 120%;
-                    left:-60;
+                    left:-50;
                 }
             }
 
@@ -198,6 +192,7 @@
             #square2{
                 border: solid 3px;
                 border-color: var(--bordercolor);
+                cursor: pointer;
                 position: absolute;
                 top: 7px;
                 left:7px;
@@ -262,50 +257,19 @@
                 font-size: 55;
                 position: absolute;
                 top: 50px;
+                animation: ach 0.7s cubic-bezier(0, 0.33, 0.57, 0.96) forwards;
             }
 
-            .emboss-txt {
-                font-size: 100px;
-                position: absolute;
-                letter-spacing: 5px;
-                top: 35%;
-                font-weight: bolder;
-                color: var(--textcolor);
-                transition: ease-in 0.6s;
-                text-shadow: 2px 5px 2px rgb(167,167,167), 1px 1px 120px rgba(255,255,255,0.9);
-                /*0px 0px 1px rgb(167,167,167),
-                0px 1px 1px rgb(167,167,167),
-                0px 2px 1px rgb(167,167,167)
-                1px 1px 1px rgb(167,167,167),
-                1px 2px 1px rgb(167,167,167),
-                1px 3px 1px rgb(167,167,167),
-                
-                2px 2px 1px rgb(167,167,167),
-                2px 3px 1px rgb(167,167,167),
-                2px 4px 1px rgb(167,167,167),
-                1px 1px 120px rgba(255,255,255,0.5);
-                /*3d layers*/
-            }
+            @keyframes ach{
+                0%{
+                    top: 50px;
+                }
 
-            .emboss-txt::after {
-                content: ",WrwbXa\\rw~w.";
-                font-size: 100px;
-                letter-spacing: 5px;
-                position: absolute;
-                top: 0;
-                left: 0;
-                text-shadow: 0px 0px 100px rgba(11,124,199,0.9);
-                animation: cycle 5s linear infinite;
+                100%{
+                    top: 20%;
+                }
+
             }
-            
-            @keyframes cycle {
-                0% { text-shadow: 0px 0px 100px rgba(11,124,199,0.9);}
-                20% { text-shadow: 0px 0px 100px rgba(168,11,199,0.9);}
-                40% { text-shadow: 0px 0px 100px rgba(11,199,96,0.9);}
-                60% { text-shadow: 0px 0px 100px rgba(199,11,11,0.9);}
-                80% { text-shadow: 0px 0px 100px rgba(199,96,11,0.9);}
-            }
-            
             
 
             .label .ball {
@@ -340,12 +304,6 @@
                 font-size: 125%;
             }
 
-            img.nigg{
-                margin: 10px;
-                padding: 10;
-                max-width: 500px;
-            }
-
         </style>
     </head>
     <body>
@@ -364,11 +322,17 @@
         </a>
         <a id="square4">
         </a>
-
-        
-        
-        <div id="garb" class="emboss-txt">,WrwbXa\rw~w.</div>
-    
+        <div class="Heading">
+            Achievement Unlocked!
+            <hr class="heading"/>
+        </div>
+        <p id="garb" class="about">
+            You just won 15 braindollahs ;))!
+            <br>I am sure you got rickrolled at least once, well GG on getting here. Oh? i found a key..."REM" is says. Better take a screenshot! [curious]
+            <p>
+                
+            </p>
+        </p>
         
         
         
@@ -379,25 +343,28 @@
                 //document.getElementById("linkgarb").classList.toggle("dark");
         });
 
-        if (localStorage.coins) {
-            if(localStorage.bool18 == "true"){
-                console.log("BD already given to the person");
-            }
-            else{
-                if(localStorage.boolr == "true"){
-                    localStorage.coins = Number(localStorage.coins) + 10;
-                    localStorage.bool18 = "true";
+
+
+        if (typeof(Storage) !== "undefined") {
+            if (localStorage.coins) {
+                if(localStorage.bool22 == "true"){
+                    document.getElementById("garb").innerHTML = "You already got your braindollah bitch.";
                 }
                 else{
-                    localStorage.coins = Number(localStorage.coins) + 5;
-                    localStorage.bool18 = "true";
+                    if(localStorage.boolr == "true"){
+                        localStorage.coins = Number(localStorage.coins) + 30;
+                        localStorage.bool22 = "true";
+                    }
+                    else{
+                        localStorage.coins = Number(localStorage.coins) + 15;
+                        localStorage.bool22 = "true";
+                    }
                 }
             }
         }
 
         
-      
-
+        
         document.addEventListener('keydown', function(event) {
             if(event.keyCode == 123) {
                 alert('Oh you cheater don\'t you dare bitch.');
