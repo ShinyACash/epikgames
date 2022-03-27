@@ -475,7 +475,7 @@
         <div class="items">
             <button id="hint" class="btn1">Hint</button>
             <p class="hintp"> 
-                15BD
+                25BD
                 <br>Grants you a hint which you can receive from Dan/Shiny
             </p>
             <button id="dildo" class="btn2">Dildo</button>
@@ -520,11 +520,11 @@
         document.addEventListener('contextmenu', event => event.preventDefault());
 
         h.addEventListener ("click", function() {
-            if(localStorage.coins < 15){
+            if(localStorage.coins < 25){
                 alert("You don't have enuf BD bitch.");
             }
             else{
-                localStorage.coins = Number(localStorage.coins) - 15;
+                localStorage.coins = Number(localStorage.coins) - 25;
                 alert("Thanks for the purchase [hint] take a ss and send to dan/shiny");
                 window.location.reload();
             }    
